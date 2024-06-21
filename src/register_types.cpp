@@ -5,6 +5,8 @@
 #include "flecs_world.h"
 #include "flecs_render.h"
 #include "multi_mesh.h"
+#include "multiMesh2d.h"
+
 using namespace godot;
 
 void initialize_gdextension_types(ModuleInitializationLevel p_level) {
@@ -15,6 +17,8 @@ void initialize_gdextension_types(ModuleInitializationLevel p_level) {
 	ClassDB::register_class<FlecsModule::World>();
 	ClassDB::register_class<FlecsModule::Rendering>();
 	ClassDB::register_class<MultiMeshTest>();
+	ClassDB::register_class<MultiMesh2DTest>();
+
 }
 
 void uninitialize_gdextension_types(ModuleInitializationLevel p_level) {

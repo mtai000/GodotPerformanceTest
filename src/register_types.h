@@ -4,7 +4,6 @@
 #include <godot_cpp/core/defs.hpp>
 #include <godot_cpp/godot.hpp>
 
-#include "demo.h"
 void initialize_gdextension_types();
 void uninitialize_gdextension_types();
 
