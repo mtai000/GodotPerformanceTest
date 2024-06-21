@@ -3,7 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://dv71q4lcewbcq" path="res://icon.svg" id="1_v67qb"]
 [ext_resource type="Script" path="res://test/spriteScene/gdnodetest.gd" id="2_uhuue"]
 
-
 [node name="normal" type="Sprite2D"]
 scale = Vector2(0.05, 0.05)
 texture = ExtResource("1_v67qb")

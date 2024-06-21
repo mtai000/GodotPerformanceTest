@@ -32,23 +32,43 @@ theme_override_font_sizes/font_size = 40
 text = "GDExt Flecs Test"
 
 [node name="gd_test" type="Button" parent="."]
-offset_left = 1243.0
-offset_top = 200.0
-offset_right = 1805.0
-offset_bottom = 382.0
+offset_left = 1223.0
+offset_top = 76.0
+offset_right = 1785.0
+offset_bottom = 258.0
 theme_override_font_sizes/font_size = 40
 text = "GDTest"
 
 [node name="gdext_test" type="Button" parent="."]
-offset_left = 1235.0
-offset_top = 666.0
-offset_right = 1792.0
-offset_bottom = 847.0
+offset_left = 1226.0
+offset_top = 287.0
+offset_right = 1783.0
+offset_bottom = 468.0
 theme_override_font_sizes/font_size = 40
 text = "GDExt Test"
+
+[node name="multiMesh2d_test" type="Button" parent="."]
+offset_left = 1223.0
+offset_top = 508.0
+offset_right = 1780.0
+offset_bottom = 689.0
+theme_override_font_sizes/font_size = 40
+text = "MultiMesh2D Gdscript test
+"
+
+[node name="multiMesh2dext_test" type="Button" parent="."]
+offset_left = 1211.0
+offset_top = 715.0
+offset_right = 1812.0
+offset_bottom = 896.0
+theme_override_font_sizes/font_size = 40
+text = "MultiMesh2D GDextention test
+"
 
 [connection signal="pressed" from="gdext_test2" to="." method="_on_gdext_test_2_pressed"]
 [connection signal="pressed" from="gdscript_test" to="." method="_on_gdscript_test_pressed"]
 [connection signal="pressed" from="gdflecs_test" to="." method="_on_gdflecs_test_pressed"]
 [connection signal="pressed" from="gd_test" to="." method="_on_gd_test_pressed"]
 [connection signal="pressed" from="gdext_test" to="." method="_on_gdext_test_pressed"]
+[connection signal="pressed" from="multiMesh2d_test" to="." method="_on_multi_mesh_2d_test_pressed"]
+[connection signal="pressed" from="multiMesh2dext_test" to="." method="_on_multi_mesh_2_dext_test_pressed"]
