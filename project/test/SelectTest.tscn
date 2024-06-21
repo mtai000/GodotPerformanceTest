@@ -1,0 +1,54 @@
+[gd_scene load_steps=2 format=3 uid="uid://lurpaf2wf7ip"]
+
+[ext_resource type="Script" path="res://test/SelectTest.gd" id="1_fpgxk"]
+
+[node name="SelectTest" type="Node2D"]
+script = ExtResource("1_fpgxk")
+
+[node name="gdext_test2" type="Button" parent="."]
+offset_left = 172.0
+offset_top = 392.0
+offset_right = 1009.0
+offset_bottom = 573.0
+theme_override_font_sizes/font_size = 40
+text = "gdextension test
+"
+
+[node name="gdscript_test" type="Button" parent="."]
+offset_left = 164.0
+offset_top = 132.0
+offset_right = 1001.0
+offset_bottom = 313.0
+theme_override_font_sizes/font_size = 40
+text = "gdscript test
+"
+
+[node name="gdflecs_test" type="Button" parent="."]
+offset_left = 176.0
+offset_top = 678.0
+offset_right = 1013.0
+offset_bottom = 859.0
+theme_override_font_sizes/font_size = 40
+text = "GDExt Flecs Test"
+
+[node name="gd_test" type="Button" parent="."]
+offset_left = 1243.0
+offset_top = 200.0
+offset_right = 1805.0
+offset_bottom = 382.0
+theme_override_font_sizes/font_size = 40
+text = "GDTest"
+
+[node name="gdext_test" type="Button" parent="."]
+offset_left = 1235.0
+offset_top = 666.0
+offset_right = 1792.0
+offset_bottom = 847.0
+theme_override_font_sizes/font_size = 40
+text = "GDExt Test"
+
+[connection signal="pressed" from="gdext_test2" to="." method="_on_gdext_test_2_pressed"]
+[connection signal="pressed" from="gdscript_test" to="." method="_on_gdscript_test_pressed"]
+[connection signal="pressed" from="gdflecs_test" to="." method="_on_gdflecs_test_pressed"]
+[connection signal="pressed" from="gd_test" to="." method="_on_gd_test_pressed"]
+[connection signal="pressed" from="gdext_test" to="." method="_on_gdext_test_pressed"]

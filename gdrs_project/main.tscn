@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcfido358tm7h"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_412s8"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_412s8")
+
+[node name="gdrust_test" type="Button" parent="."]
+offset_left = 99.0
+offset_top = 49.0
+offset_right = 303.0
+offset_bottom = 137.0
+text = "rust extension test"
+
+[node name="bevyecs_test" type="Button" parent="."]
+offset_left = 100.0
+offset_top = 217.0
+offset_right = 304.0
+offset_bottom = 305.0
+text = "bevyecs test"
+
+[connection signal="pressed" from="gdrust_test" to="." method="_on_gdrust_test_pressed"]
+[connection signal="pressed" from="bevyecs_test" to="." method="_on_bevyecs_test_pressed"]
