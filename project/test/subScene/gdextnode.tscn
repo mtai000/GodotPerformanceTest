@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dpw3bmk7h5tkv"]
-
-[ext_resource type="Texture2D" uid="uid://dv71q4lcewbcq" path="res://icon.svg" id="1_tdnfe"]
-
-[node name="Gdext" type="Demo"]
-position = Vector2(1540, 934)
-scale = Vector2(0.05, 0.05)
-texture = ExtResource("1_tdnfe")
